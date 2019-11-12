@@ -1,17 +1,17 @@
 {
-    "name": "laravel/socialite",
+    "name": "webmasterninja/socialite",
     "description": "Laravel wrapper around OAuth 1 & OAuth 2 libraries.",
     "keywords": ["oauth", "laravel"],
     "license": "MIT",
-    "homepage": "https://laravel.com",
+    "homepage": "https://www.webmasterninjas.com",
     "support": {
-        "issues": "https://github.com/laravel/socialite/issues",
-        "source": "https://github.com/laravel/socialite"
+        "issues": "https://github.com/webmasterninja/socialite/issues",
+        "source": "https://github.com/webmasterninja/socialite"
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Stan Quinn",
+            "email": "stanquinn@webmasterninjas.com"
         }
     ],
     "require": {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Socialite\\": "src/"
+            "Webmasterninja\\Socialite\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Socialite\\Tests\\": "tests/"
+            "Webmasterninja\\Socialite\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -43,10 +43,10 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Socialite\\SocialiteServiceProvider"
+                "Webmasterninja\\Socialite\\SocialiteServiceProvider"
             ],
             "aliases": {
-                "Socialite": "Laravel\\Socialite\\Facades\\Socialite"
+                "Socialite": "Webmasterninja\\Socialite\\Facades\\Socialite"
             }
         }
     },
