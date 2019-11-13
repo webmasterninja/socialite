@@ -80,7 +80,7 @@ class OAuthTwoTest extends TestCase
     }
 
     /**
-     * @expectedException \Webmasterninja\Socialite\Two\InvalidStateException
+     * @expectException \Webmasterninja\Socialite\Two\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsInvalid()
     {
@@ -92,7 +92,7 @@ class OAuthTwoTest extends TestCase
     }
 
     /**
-     * @expectedException \Webmasterninja\Socialite\Two\InvalidStateException
+     * @expectException \Webmasterninja\Socialite\Two\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsNotSet()
     {

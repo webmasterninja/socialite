@@ -67,7 +67,7 @@ class OAuthOneTest extends TestCase
     }
 
     /**
-     * @expectedException \InvalidArgumentException
+     * @expectException \InvalidArgumentException
      */
     public function testExceptionIsThrownWhenVerifierIsMissing()
     {
