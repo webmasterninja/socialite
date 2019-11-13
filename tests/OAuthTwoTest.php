@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Socialite\Tests;
+namespace Webmasterninja\Socialite\Tests;
 
 use GuzzleHttp\ClientInterface;
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Laravel\Socialite\Tests\Fixtures\FacebookTestProviderStub;
-use Laravel\Socialite\Tests\Fixtures\OAuthTwoTestProviderStub;
-use Laravel\Socialite\Two\User;
+use Webmasterninja\Socialite\Tests\Fixtures\FacebookTestProviderStub;
+use Webmasterninja\Socialite\Tests\Fixtures\OAuthTwoTestProviderStub;
+use Webmasterninja\Socialite\Two\User;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use stdClass;
@@ -80,7 +80,7 @@ class OAuthTwoTest extends TestCase
     }
 
     /**
-     * @expectedException \Laravel\Socialite\Two\InvalidStateException
+     * @expectedException \Webmasterninja\Socialite\Two\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsInvalid()
     {
@@ -92,7 +92,7 @@ class OAuthTwoTest extends TestCase
     }
 
     /**
-     * @expectedException \Laravel\Socialite\Two\InvalidStateException
+     * @expectedException \Webmasterninja\Socialite\Two\InvalidStateException
      */
     public function testExceptionIsThrownIfStateIsNotSet()
     {

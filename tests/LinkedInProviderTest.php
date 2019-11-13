@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Socialite\Tests;
+namespace Webmasterninja\Socialite\Tests;
 
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
-use Laravel\Socialite\Two\LinkedInProvider;
-use Laravel\Socialite\Two\User;
+use Webmasterninja\Socialite\Two\LinkedInProvider;
+use Webmasterninja\Socialite\Two\User;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Socialite\Facades;
+namespace Webmasterninja\Socialite\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Laravel\Socialite\Contracts\Factory;
+use Webmasterninja\Socialite\Contracts\Factory;
 
 /**
- * @method static \Laravel\Socialite\Contracts\Provider driver(string $driver = null)
- * @see \Laravel\Socialite\SocialiteManager
+ * @method static \Webmasterninja\Socialite\Contracts\Provider driver(string $driver = null)
+ * @see \Webmasterninja\Socialite\SocialiteManager
  */
 class Socialite extends Facade
 {

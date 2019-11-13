@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace Webmasterninja\Socialite\Two;
 
-use Laravel\Socialite\AbstractUser;
+use Webmasterninja\Socialite\AbstractUser;
 
 class User extends AbstractUser
 {

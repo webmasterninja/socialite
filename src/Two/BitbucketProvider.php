@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace Webmasterninja\Socialite\Two;
 
 use Exception;
 use GuzzleHttp\ClientInterface;
@@ -69,7 +69,7 @@ class BitbucketProvider extends AbstractProvider implements ProviderInterface
         try {
             $response = $this->getHttpClient()->get($emailsUrl);
         } catch (Exception $e) {
-            return;
+            return $e->getMessage();
         }
 
         $emails = json_decode($response->getBody(), true);

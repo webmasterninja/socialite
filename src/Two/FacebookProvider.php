@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace Webmasterninja\Socialite\Two;
 
 use GuzzleHttp\ClientInterface;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace Webmasterninja\Socialite\Two;
 
 use Exception;
 use Illuminate\Support\Arr;
@@ -65,7 +65,7 @@ class GithubProvider extends AbstractProvider implements ProviderInterface
                 $emailsUrl, $this->getRequestOptions()
             );
         } catch (Exception $e) {
-            return;
+            return $e->getMessage();
         }
 
         foreach (json_decode($response->getBody(), true) as $email) {

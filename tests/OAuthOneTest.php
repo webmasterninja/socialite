@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Socialite\Tests;
+namespace Webmasterninja\Socialite\Tests;
 
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Laravel\Socialite\One\User as SocialiteUser;
-use Laravel\Socialite\Tests\Fixtures\OAuthOneTestProviderStub;
+use Webmasterninja\Socialite\One\User as SocialiteUser;
+use Webmasterninja\Socialite\Tests\Fixtures\OAuthOneTestProviderStub;
 use League\OAuth1\Client\Credentials\TemporaryCredentials;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use League\OAuth1\Client\Server\Twitter;
